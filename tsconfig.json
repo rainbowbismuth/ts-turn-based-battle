@@ -1,0 +1,20 @@
+{
+    "buildOnSave": false,
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "jsx": "react"
+    },
+    "files": [
+        "./typings/tsd.d.ts",
+        "./src/Main.tsx"
+    ],
+    "fileGlobs": [
+        "./src/*.ts"
+    ]
+}
